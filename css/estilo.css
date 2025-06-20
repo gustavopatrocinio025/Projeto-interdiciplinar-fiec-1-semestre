@@ -372,3 +372,82 @@ footer p {
   margin-top: 15px;
   font-size: 0.9rem;
 }
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .logo {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .produtos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .produto-card {
+    flex: 0 0 90%;
+  }
+
+  .imagemlocalizacao img,
+  .imageminterna img {
+    width: 100%;
+    height: auto;
+  }
+
+  .side-nav {
+    position: static;
+    margin: 20px auto;
+    width: 100%;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .side-nav ul {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .contato-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contato-card {
+    width: 90%;
+  }
+
+  .barra-pesquisa {
+    width: 100%;
+    max-width: none;
+    margin: 10px auto;
+  }
+}
+  
