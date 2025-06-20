@@ -297,6 +297,59 @@ main {
   height: 100px;
 }
 
+.form-conta {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #2c2c2c;
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid #d4af37;
+  color: #fff;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  color: #ffd700;
+  font-weight: bold;
+}
+
+.form-group input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: #444;
+  color: #fff;
+}
+
+.form-group input:focus {
+  border: 2px solid #d4af37;
+}
+
+.form-conta button {
+  background-color: #d4af37;
+  color: #1f1b1b;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-conta button:hover {
+  background-color: #b4962d;
+  color: white;
+}
+
 footer {
   background-color: #222;
   color: #fff;
